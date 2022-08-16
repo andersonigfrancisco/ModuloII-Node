@@ -1,0 +1,8 @@
+{
+  "name": "ModuloII-Node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andersonigfrancisco/ModuloII-Node.git",
+  "author": "andersonfranciscoig@gmail.com <andersonfranciscoig@gmail.com>",
+  "license": "MIT"
+}
