@@ -9,5 +9,5 @@ export function createCourse(request: Request, response: Response) {
     educator: "Anderson"
   });
 
-  return response.send();
+  return response.json({message:"Ola Mundo!"});
 }
