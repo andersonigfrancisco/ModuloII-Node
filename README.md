@@ -31,3 +31,7 @@ ModuloII-Node
     }
   ]
 }
+
+# Link diagrama da aplicação
+
+https://xesque.rocketseat.dev/1571029149847-attachment.png
