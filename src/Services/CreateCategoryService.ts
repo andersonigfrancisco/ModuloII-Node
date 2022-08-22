@@ -1,4 +1,5 @@
-import { CategoriesRepository } from "../repositories/CategoriesRepository";
+import { ICategoriesRepositor } from "../repositories/ICategoriesRepositor";
+
 
 interface IRequest {
   name: string;
@@ -8,7 +9,7 @@ interface IRequest {
 
 export class CreateCategoryService {
 
-  constructor(private categoriesRepository: CategoriesRepository) {
+  constructor(private categoriesRepository: ICategoriesRepositor) {
 
   }
 
