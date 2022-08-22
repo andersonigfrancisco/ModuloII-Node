@@ -32,4 +32,9 @@ export class CategoriesRepository{
 
     return categorie;
   }
+
+  list():Category[]{
+
+    return this.categories;
+  }
 }
