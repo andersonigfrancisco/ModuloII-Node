@@ -9,7 +9,7 @@ interface ICreateSpecificationDTO{
 
 interface ISpecificationRepositor{
 
-  
+  findByName(name:string):Specification;
   create({name,description}:ICreateSpecificationDTO):void
 
 }

@@ -26,4 +26,12 @@ export class SpecificationRepositor implements ISpecificationRepositor{
     this.specification.push(categorie)
 
   }
+
+  findByName(name:string):Specification{
+
+    const specification = this.specification.find(specification=>specification.name===name);
+
+    return specification;
+  }
 }
+
